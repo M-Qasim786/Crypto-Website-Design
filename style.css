@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo 2", cursive;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+/* ---navbar style------ */
+.logo {
+  font-size: 2.4vw;
+  margin: 0rem 0.5rem;
+  color: #fb7483;
+}
+.navbar-brand {
+  font-size: 2.2vw;
+  color: #fff;
+}
+.navbar-brand:hover {
+  color: #fb7483;
+}
+.navbar {
+  background-color: #2d4a8e;
+}
+.navbar-nav {
+  margin: 0rem 0.5rem;
+}
+.navbar-nav .nav-item .nav-link {
+  padding: 0rem 1.7rem;
+  color: #fff;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fb7483;
+}
+.button-group {
+  margin: 0rem 1rem;
+}
+.button-group .btn {
+  border: 1px solid #fff;
+  padding: 0.4rem 1.6rem;
+  background: none;
+  margin: 0rem 0.1rem;
+  cursor: pointer;
+  color: #fff;
+}
+.button-group .btn:hover {
+  background-color: #fff;
+  color: black;
+  transition: all 0.5s ease;
+}
+/* -------------hero-section------------- */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  background: #2d4a8e;
+}
+.hero-section .hero-section-text {
+  color: #fff;
+  margin-left: 5rem;
+}
+.hero-section .hero-section-text h1 {
+  font-size: 4vw;
+}
+.hero-section .hero-section-text p {
+  font-size: 1.5vw;
+  padding: 0.5rem 0rem;
+}
+.hero-section .hero-section-image {
+  width: 100%;
+}
+.hero-section-image img {
+  width: 100%;
+  height: 100vh;
+}
+.hero-section .hero-section-text button {
+  background: none;
+  border: 2px solid #fff;
+  outline: none;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+  margin: 0.5rem 0rem;
+}
+.hero-section .hero-section-text button:hover {
+  background-color: #fff;
+  color: black;
+  transition: all 0.5s ease;
+}
+/* ------about-section-------- */
+.about-section {
+  margin: 2rem 5rem;
+}
+.about-section .about-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0rem 7rem;
+}
+.about-section .about-div h1 {
+  font-size: 4vw;
+}
+.about-section .about-div p {
+  font-size: 1.4vw;
+}
+/* ------card-section--------- */
+.card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f0f0f6;
+  height: 60vh;
+  margin: 2rem;
+  border-radius: 10px;
+}
+.card-section .card {
+  width: 20rem;
+  margin: 1rem;
+  height: 40vh;
+  cursor: pointer;
+  background-color: #ffffff;
+  box-shadow: 5px 25px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.card-section .card:hover {
+  transform: scale(0.9);
+  transition: all 0.5s ease;
+  background-color: #fb7483;
+  color: #fff;
+}
+.card .icon {
+  font-size: 3rem;
+  color: #2d4a8e;
+}
+/* --------team-section------- */
+.team-section {
+  background-color: #ffffff;
+}
+.team-section h1 {
+  text-align: center;
+  font-size: 4vw;
+}
+.team-section p {
+  text-align: center;
+}
+.team-section .team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.team .team-card {
+  margin: 0rem 1.5rem;
+  /* box-shadow: 5px 25px 25px -5px rgba(0, 0, 0, 0.1);    */
+  border: 1px solid #fff;
+  border-radius: 15px 15px 0 0;
+}
+.team .team-card img {
+  width: 100%;
+  height: 50vh;
+  cursor: pointer;
+}
+.team-card img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+/* --------footer-section------- */
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  border-top: 1px solid rgb(131, 124, 124);
+  height: 10vh;
+}
+.footer-section .list {
+  flex: 50%;
+}
+.footer-section .list ul {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 4rem;
+}
+.footer-section .list ul li {
+  list-style: none;
+  padding: 0rem 1.5rem;
+  cursor: pointer;
+}
+.footer-section .copyright {
+  margin: 0.5rem 4rem;
+}
